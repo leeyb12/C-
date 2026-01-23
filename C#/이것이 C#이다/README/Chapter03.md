@@ -1161,4 +1161,4 @@ d type: System.String, value: def
   - `{첨자, 맞춤 : 서식 문자열}`
   - 왼쪽/오른쪽 맞춤
     `string.Format("{0, -10}DEF","ABC")`; // "ABC.......DEF" D가 10번째 시작
-    `string.Format`
+    `string.Format("{0,-10}DEF","ABC")`; // ".......ABCDEF" "ABC"가 뒤로 쌓임
